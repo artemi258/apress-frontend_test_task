@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+  .products {
+    &__message {
+      font-size: 12px;
+    }
+    &__list {
+      margin-top: 10px;
+    }
+  }
+}
