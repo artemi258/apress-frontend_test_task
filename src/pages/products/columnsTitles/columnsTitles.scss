@@ -1,0 +1,35 @@
+.columnsTitles {
+  display: grid;
+  grid-template: 49px / repeat(5, 202.8px);
+  column-gap: 16px;
+  align-items: center;
+  justify-items: start;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  &__name {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+  }
+  &__button {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    left: -16px;
+    transform: translateX(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  &__icon {
+    width: 16px;
+    height: 16px;
+  }
+}

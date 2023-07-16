@@ -4,6 +4,7 @@
   column-gap: 16px;
   align-items: center;
   justify-items: start;
+  cursor: pointer;
   &__product {
     display: flex;
     align-items: center;
@@ -39,11 +40,20 @@
     font-size: 14px;
     font-weight: 500;
   }
-  &__exist {
+  &__availability {
     font-size: 12px;
     border-radius: 22px;
+    padding: 8px 12px;
+  }
+  &__exist {
     background-color: #ebf9f1;
     color: #1f9254;
-    padding: 8px 12px;
+  }
+  &__notExist {
+    background: #fef2e5;
+    color: #cd6200;
+  }
+  &__background {
+    background-color: #f7f6fe;
   }
 }
