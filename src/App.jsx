@@ -16,7 +16,6 @@ function App() {
     setMobile(isMobile());
   }, []);
 
-  console.log(mobile);
   return (
     <Container>
       <div className="App">

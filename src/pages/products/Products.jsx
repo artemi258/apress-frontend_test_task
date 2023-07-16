@@ -75,7 +75,7 @@ export const Products = ({ mobile }) => {
               Товары не найдены. Измените запрос.
             </div>
           ) : (
-            <div className="products__message">...загрузка</div>
+            <div className="products__message">загрузка...</div>
           )}
         </ul>
       </div>

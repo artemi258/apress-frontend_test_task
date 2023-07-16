@@ -57,7 +57,7 @@ export const Popup = ({ handlerClosePopup }) => {
       ) : (
         <div className="popup">
           <div className="popup__content">
-            <div className="popup__message">...загрузка</div>
+            <div className="popup__message">загрузка...</div>
           </div>
         </div>
       )}
